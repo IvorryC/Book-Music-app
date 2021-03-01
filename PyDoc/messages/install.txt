@@ -1,0 +1,58 @@
+  _____       _____   ____   _____
+ |  __ \     |  __ \ / __ \ / ____|
+ | |__) |   _| |  | | |  | | |
+ |  ___/ | | | |  | | |  | | |
+ | |   | |_| | |__| | |__| | |____
+ |_|    \__, |_____/ \____/ \_____|
+         __/ |
+        |___/
+
+
+Hi there.  Thanks for installing the PyDOC plugin for Sublime Text.
+
+ABOUT
+-----
+
+PyDOC is a plugin for Sublime Text 3 that allows you to open Python 2, Python 3, Numpy, SciPy, Matplotlib, and TensorFlow documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org and the respective package websites.  The current release version of the project documentation is opened in your default web browser.
+
+HOW TO USE PYDOC
+----------------
+
+Select a Python built-in in your script, then use one of the following:
+
+  1) Right click context menu - right click, and select either 'Python 2 Doc Search', 'Python 3 Doc Search', 'Numpy Doc Search', 'SciPy Doc Search', 'Matplotlib Doc Search', or 'TensorFlow Doc Search'
+
+  2) Keybinding - enter `Ctrl-2` (for Python 2 docs), `Ctrl-3` (for Python 3 docs), `Ctrl-4` (for Numpy docs), `Ctrl-5` (for SciPy docs), `Ctrl-6` (for Matplotlib docs), or `Ctr-7` (for TensorFlow docs)
+
+  3) Command Palette - enter `Cmd-Shift-P` or `Ctrl-Shift-P` to open the Command Palette, then type 'pydoc' & select any of the aforementioned options in (1).
+
+TRY IT
+------
+
+Here ya go... a Python 3 example:
+
+from enum import Enum
+
+class Color(Enum):
+    red = 1
+    green = 2
+    blue = 3
+
+
+And from Python 2:
+
+import urllib2
+
+print(urllib2.urlopen('http://www.python.org/').read())
+
+
+DOCUMENTATION
+-------------
+
+  Docs are available @ https://github.com/chrissimpkins/PyDOC
+
+ISSUES
+------
+
+  Find a bug? Let's fix it. Submit the problem as a new issue on the GitHub repo @ https://github.com/chrissimpkins/PyDOC/issues
+
